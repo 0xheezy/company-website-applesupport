@@ -7,7 +7,14 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: #f4f4f4;
+    color: white;
+    background: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+      url('../images/glow on top of bottom layer@2x.png'), 
+      linear-gradient(206.14deg, #FF6091 0%, #5127DD 145.34%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   header {
@@ -65,7 +72,7 @@
   }
   
   .contact-us a {
-    color: #5127DD;
+    color: white;
     text-decoration: none;
   }
   
